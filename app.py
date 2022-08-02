@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 import urllib3
 from threading import Thread
-from ieu.database import Ieu_sfl, Ieu_announcement, Ieu_news
+from database import Ieu_sfl, Ieu_announcement, Ieu_news
 
 urllib3.disable_warnings()
 
